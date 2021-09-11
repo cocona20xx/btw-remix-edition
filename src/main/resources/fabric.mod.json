@@ -1,29 +1,28 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
-  "version": "${version}",
+  "id": "btw",
+  "version": "alpha-v1",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Better than Wolves: Remix Edition",
+  "description": "A reimagining and forward-port of Better than Wolves for Legacy Quilt/Fabric 1.8.9",
   "authors": [
-    "Me!"
+    "cocona20xx/rin20xx"
   ],
   "contact": {
-    "homepage": "https://legacyfabric.net/",
-    "sources": "https://github.com/Legacy-Fabric/fabric-example-mod"
+    "sources": "https://github.com/cocona20xx/btw-remix-edition"
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "GNU General Public License v2.0",
+  "icon": "assets/btw/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "projectbtwremix.btw.BetterThanWolvesMod"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "btw.mixins.json"
   ],
 
   "depends": {
